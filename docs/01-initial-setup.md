@@ -2,6 +2,10 @@
 
 ## 1. Lab Environment
 <!-- VM names, OS versions, CPU, RAM, and storage -->
+|                  |  NS-DC01            |  ND-CLIENT01            |
+--------------------------------------------------------------------
+| Purpose          | Domain Controller   | Client Machine          |
+| OS edition/build | Windows Server 2025
 
 ## 2. Network Configuration
 <!-- VirtualBox network mode, IP addresses, subnet masks, and DNS -->
