@@ -50,7 +50,7 @@ workstation to the domain.
 
 ## Documentation
 
-- 
+- [Initial lab setup](docs/01-initial-setup.md)
 
 ## Planned Scenarios
 
