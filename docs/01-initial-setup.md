@@ -2,10 +2,14 @@
 
 ## 1. Lab Environment
 <!-- VM names, OS versions, CPU, RAM, and storage -->
-|                  |  NS-DC01            |  ND-CLIENT01            |
---------------------------------------------------------------------
-| Purpose          | Domain Controller   | Client Machine          |
-| OS edition/build | Windows Server 2025
+The initial planned IT infrastructure for this lab consist of two virtual machines, NS-DC01 and NS-CLIENT01. The hypervisor chose was Oracle's VirtualBox.  
+
+|                     |  NS-DC01                   |  NS-CLIENT01            |
+|---------------------|----------------------------|-------------------------|
+| Purpose             | Domain Controller          | Client Machine          |
+| OS edition/build    | Windows Server 2025/64-bit | Windows 11              |
+| RAM/vCPU            | 2GB/2                      | 4GB/2                   |
+
 
 ## 2. Network Configuration
 <!-- VirtualBox network mode, IP addresses, subnet masks, and DNS -->
