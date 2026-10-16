@@ -4,7 +4,7 @@
 
 Build and manage a virtualized Windows environment to develop practical skills in Windows system administration and IT support. This project focuses on configuring Windows Server and client systems, implementing Active Directory and Group Policy, managing user accounts and permissions, troubleshooting connectivity and authentication issues, and documenting technical problems and their resolutions. The goal is to simulate real-world IT support scenarios and demonstrate hands-on skills in system administration, troubleshooting, and enterprise IT operations.
 
-## Skills Demonstrated
+## Skills Practiced and Planned
 
 - **Windows System Administration:** Windows Server and Windows client configuration and management
 - **Active Directory (AD DS):** Domain setup, user and group management, and centralized authentication
@@ -17,7 +17,7 @@ Build and manage a virtualized Windows environment to develop practical skills i
 - **Technical Documentation:** Recording system configurations, troubleshooting procedures, test results, and resolutions
 - **PowerShell:** Basic Windows administration and automation, where implemented
 
-## Tools & Technologies
+## Tools & Technologies Used or Planned
 
 ### Virtualization and Lab Environment
 - **Virtualization Platform:** Oracle VirtualBox
@@ -39,8 +39,25 @@ Build and manage a virtualized Windows environment to develop practical skills i
 - **Event Viewer:** System and application log analysis
 
 ### Documentation and Version Control
-- **Git:** Version control and tracking project changes
+- **Git:** Hosting project documentation and tracking changes
 
+## Project Status
 
-## Steps
+Lab setup is in progress. Windows Server and the Windows client
+have been installed as virtual machines in Oracle VirtualBox.
+Initial configuration is being documented before joining the
+workstation to the domain.
+
+## Documentation
+
+- 
+
+## Planned Scenarios
+
+- Join a Windows workstation to the Active Directory domain
+- Create and manage domain users and groups
+- Configure and verify Group Policy settings
+- Configure shared folders and access permissions
+- Troubleshoot account, DNS, and connectivity issues
+
 
