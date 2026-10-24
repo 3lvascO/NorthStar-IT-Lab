@@ -20,6 +20,8 @@ Initial VirtualBox Network adapter was set up for Host-Only isolation purposes.
 | DNS                 | 10.10.10.10                | not yet set             |
 | DHCP                | currently off              | not yet set             |
 
+The lab currently uses a single subnet because it contains only one department and one client workstation. Additional subnetting or network segmentation has not been implemented.
+
 ## 3. Windows Server Configuration
 
 ### System Identification
@@ -46,13 +48,29 @@ Initial VirtualBox Network adapter was set up for Host-Only isolation purposes.
 
 
 ## 4. Active Directory and DNS
-<!-- Record completed setup here, or mark it as pending -->
+
+### Active Directory Configuration
+- **AD DS role:** Installed
+- **Domain controller promotion:** Completed
+- **Domain name:** northstar.test 
+- **Domain controller hostname:** NS-DC01
+- **NetBIOS domain name:** NORTHSTAR
+### DNS Configuration
+- **DNS Server role:** Installed
+- **DNS server IP address:** 10.10.10.10
+- **Forward lookup zone:** Not configured
+- **DNS forwarders:**  Not configured
+
+### Current Status
+- Initial configuration completed, awaiting to add a client machine to the domain.
 
 ## 5. Windows Client Configuration
-<!-- Client name, edition, network settings, and current domain status -->
+Not yet configured
+## 6. Verification
 
 ## 6. Verification
-<!-- Tests performed, expected results, and actual results -->
+Ping form Windows host to VM NS-DC01 : 10.10.10.10 / successful
+Ping from Windows host to VM adapter: 10.10.10.1 / successful
 
 ## 7. Issues and Resolutions
 <!-- Symptoms, investigation, changes made, and verification -->
