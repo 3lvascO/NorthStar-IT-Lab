@@ -76,6 +76,6 @@ Ping from Windows host to VM adapter: 10.10.10.1 / successful
 
 ## 8. Next Steps
 <!-- Remaining prerequisites and workstation domain join -->
-- **Join the client into the northstar.test domain
-- **Further safety configuration
-- **Test with different scenarios
+- Join the client into the northstar.test domain
+- Further safety configuration
+- Test with different scenarios
