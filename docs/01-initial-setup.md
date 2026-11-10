@@ -17,8 +17,8 @@ Initial VirtualBox Network adapter was set up for Host-Only isolation purposes.
 |                     |  NS-DC01                   |  NS-CLIENT01            |
 |---------------------|----------------------------|-------------------------|
 | IP address          | 10.10.10.10/24             | 10.10.10.02/24          |
-| DNS                 | 10.10.10.10                | not yet set             |
-| DHCP                | currently off              | not yet set             |
+| DNS                 | 10.10.10.10                | not set yet             |
+| DHCP                | currently off              | not set yet             |
 
 The lab currently uses a single subnet because it contains only one department and one client workstation. Additional subnetting or network segmentation has not been implemented.
 
@@ -66,7 +66,6 @@ The lab currently uses a single subnet because it contains only one department a
 
 ## 5. Windows Client Configuration
 Not yet configured
-## 6. Verification
 
 ## 6. Verification
 Ping form Windows host to VM NS-DC01 : 10.10.10.10 / successful
@@ -77,3 +76,6 @@ Ping from Windows host to VM adapter: 10.10.10.1 / successful
 
 ## 8. Next Steps
 <!-- Remaining prerequisites and workstation domain join -->
+- **Join the client into the northstar.test domain
+- **Further safety configuration
+- **Test with different scenarios
