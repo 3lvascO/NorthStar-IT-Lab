@@ -43,8 +43,9 @@ The lab currently uses a single subnet because it contains only one department a
 
 ### Management and Security
 - **Windows Firewall:** On
-- **Remote Desktop:** Disabled
+- **Remote Desktop:** Disabled 
 - [Other configuration changes actually completed]
+- [Screenshot](/images/NS-DC01_VB_Setup.PNG)
 
 
 ## 4. Active Directory and DNS
@@ -74,6 +75,7 @@ It will be used to test domain sign-in, Group Policy, and common help desk tasks
 - **VirtualBox network:** VirtualBox Host-Only Ethernet Adapter
 - **IP assignment:** Static 10.10.10.12
 - **DNS server:** 10.10.10.10
+- [Screenshot](/images/NS-CLIENT_VB_Setup.PNG)
 
 ### Pre-Join Verification
 
