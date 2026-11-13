@@ -36,7 +36,7 @@ Resolve-DnsName -Name "_ldap._tcp.dc._msdcs.northstar.test" -Type SRV -DnsOnly
 ## Verification
 
 After restarting, I verified domain membership using System Properties
-[View Screenshot](/imagesNS-CLIENT_Domain_Joining4.PNG).
+[View Screenshot](/images/NS-CLIENT_Domain_Joining4.PNG).
 
 ## Follow-Up: Standard Domain User Sign-In
 
