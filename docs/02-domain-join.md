@@ -28,9 +28,9 @@ Resolve-DnsName -Name "_ldap._tcp.dc._msdcs.northstar.test" -Type SRV -DnsOnly
 ## Domain Join Procedure
 
 1. Signed in to the workstation with a local administrator account.
-2. Opened System Properties (`sysdm.cpl`) and selected **Computer Name → Change**.
+2. Opened System Properties (`sysdm.cpl`) and selected **Computer Name → Change**. [View screenshot](/images/NS-CLIENT_Domain_Joining4.PNG)
 3. Selected **Domain**, entered `northstar.test`, and supplied authorized
-   domain credentials when prompted.
+   domain credentials when prompted. [View screenshot](/images/NS-CLIENT_Domain_Joining3.PNG)
 4. Restarted the workstation after Windows confirmed the join.
 
 ## Verification
