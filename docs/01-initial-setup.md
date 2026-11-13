@@ -65,7 +65,6 @@ The lab currently uses a single subnet because it contains only one department a
 - Initial configuration completed, client machined joined the domain under utilizing the newly created user account: "alex"
 
 ## 5. Windows Client Configuration
-## 5. Windows Client Configuration
 
 The Windows client VM serves as the end-user workstation for the NorthStar lab.
 It will be used to test domain sign-in, Group Policy, and common help desk tasks.
