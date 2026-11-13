@@ -17,7 +17,7 @@ Initial VirtualBox Network adapter was set up for Host-Only isolation purposes.
 |                     |  NS-DC01                   |  NS-CLIENT01            |
 |---------------------|----------------------------|-------------------------|
 | IP address          | 10.10.10.10/24             | 10.10.10.02/24          |
-| DNS                 | 10.10.10.10                | not set yet             |
+| DNS                 | 10.10.10.10                | 10.10.10.10             |
 | DHCP                | currently off              | not set yet             |
 
 The lab currently uses a single subnet because it contains only one department and one client workstation. Additional subnetting or network segmentation has not been implemented.
@@ -38,7 +38,7 @@ The lab currently uses a single subnet because it contains only one department a
 - No update has been issued since installation. Will update after fully operational 
 ### Installed Roles and Features
 - Domain Controller active
-- DNS [installed], configuration and functionality still need verification.
+- DNS [installed].
 - Active Directory domain configuration is documented in Section 4.
 
 ### Management and Security
@@ -58,14 +58,34 @@ The lab currently uses a single subnet because it contains only one department a
 ### DNS Configuration
 - **DNS Server role:** Installed
 - **DNS server IP address:** 10.10.10.10
-- **Forward lookup zone:** Not configured
-- **DNS forwarders:**  Not configured
+- **Forward lookup zone:** __msdcs.northstar.test
+- **DNS forwarders:**  
 
 ### Current Status
-- Initial configuration completed, awaiting to add a client machine to the domain.
+- Initial configuration completed, client machined joined the domain under utilizing the newly created user account: "alex"
 
 ## 5. Windows Client Configuration
-Not yet configured
+## 5. Windows Client Configuration
+
+The Windows client VM serves as the end-user workstation for the NorthStar lab.
+It will be used to test domain sign-in, Group Policy, and common help desk tasks.
+
+- **Computer name:** NS-CLIENT01
+- **Operating system:** Windows 11
+- **VirtualBox network:** VirtualBox Host-Only Ethernet Adapter
+- **IP assignment:** Static 10.10.10.12
+- **DNS server:** 10.10.10.10
+
+### Pre-Join Verification
+
+From the client, I queried the Active Directory DNS SRV record for
+`northstar.test`. The lookup returned `ns-dc01.northstar.test` as the
+domain controller target.
+
+### Follow-up
+
+The workstation was later joined to `northstar.test`. See
+[Workstation domain join](02-domain-join.md) for the procedure and verification.
 
 ## 6. Verification
 Ping form Windows host to VM NS-DC01 : 10.10.10.10 / successful
@@ -76,6 +96,5 @@ Ping from Windows host to VM adapter: 10.10.10.1 / successful
 
 ## 8. Next Steps
 <!-- Remaining prerequisites and workstation domain join -->
-- Join the client into the northstar.test domain
 - Further safety configuration
 - Test with different scenarios
