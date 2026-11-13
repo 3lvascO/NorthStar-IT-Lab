@@ -24,7 +24,7 @@ Resolve-DnsName -Name "_ldap._tcp.dc._msdcs.northstar.test" -Type SRV -DnsOnly
 ```
 
 **Result:** The lookup returned `ns-dc01.northstar.test` as the target.
-
+[View screenshot](images/NS-CLIENT_Domain_Joining.png)
 ## Domain Join Procedure
 
 1. Signed in to the workstation with a local administrator account.
