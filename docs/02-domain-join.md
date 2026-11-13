@@ -38,9 +38,4 @@ Resolve-DnsName -Name "_ldap._tcp.dc._msdcs.northstar.test" -Type SRV -DnsOnly
 After restarting, I verified domain membership using System Properties
 [View Screenshot](/images/NS-CLIENT_Domain_Joining4.PNG).
 
-## Follow-Up: Standard Domain User Sign-In
 
-**Status:** [Pending / Verified]
-
-[After testing, record whether the standard domain user reached the desktop
-and include the output of `whoami`.]
