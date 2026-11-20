@@ -4,8 +4,8 @@
 Establish a centrally managed security baseline for NorthStar’s Windows workstation using Group Policy.
 
 ## Steps
-I created an OU called Lab Workstations and moved the only workstation into it (CLIENT01). [Screenshot](BaselineGPO_1PNG.PNG) 
-Then I created a GPO named Workstation Baseline and linked it to the Lab Workstations OU. [Screenshot](BaselineGPO_2PNGPNG)
+I created an OU called Lab Workstations and moved the only workstation into it (CLIENT01). [Screenshot](/images/BaselineGPO_1PNG.PNG) 
+Then I created a GPO named Workstation Baseline and linked it to the Lab Workstations OU. [Screenshot](/images/BaselineGPO_2PNGPNG)
 
 The following setting were applied to this Baseline GPO
 
