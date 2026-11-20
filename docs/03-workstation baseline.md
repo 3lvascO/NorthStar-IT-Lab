@@ -10,4 +10,4 @@ Establish a centrally managed security baseline for NorthStar’s Windows workst
 | Policy              | Interactive logon: Machine inactivity limit                |
 | Value               | 600 seconds                                                |
 | Verification        | GPO listed by gpresult; workstation locks after inactivity |
-| Screenshots         | Images
+| Screenshots         | [Image](BaselineGPO_4PNG.PNG)
