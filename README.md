@@ -51,7 +51,7 @@ workstation to the domain.
 ## Documentation
 
 - [Initial lab setup](docs/01-initial-setup.md)
-- [Workstation Baseline Configuration](docs/03-workstationbaseline.md)
+- [Workstation Baseline Configuration](docs/03-workstation_baseline.md)
   
 ## Planned Scenarios
 
