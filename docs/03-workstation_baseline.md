@@ -19,5 +19,15 @@ The following setting were applied to this Baseline GPO
 | Value               | 600 seconds                                                |
 | Verification        | GPO listed by gpresult; workstation locks after inactivity |
 
+2. Firewall Configuration
+   
+|  Item               |  Value                           
+|---------------------|------------------------------------------------------------|
+| GPO                 | NorthStar - Workstation Baseline                           |
+| Linked OU           | Lab Workstations                                           |
+| Security Setting    | WD Firewall                                                |
+| Value               | inbound/outbount defaults, logging                         |
+| Verification        | Get-NetFirewallProfile shows rules [values](images/BaselineGPO_Firewall_PS.PNG)                  |
+
 ## Verification
 Ensured that the GP has been applied to the workstation. [Screenshot](/images/BaselineGPO_4PNG.PNG) 
