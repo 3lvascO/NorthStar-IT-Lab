@@ -27,7 +27,7 @@ The following setting were applied to this Baseline GPO
 | Linked OU           | Lab Workstations                                           |
 | Security Setting    | WD Firewall                                                |
 | Value               | inbound/outbount defaults, logging                         |
-| Verification        | Get-NetFirewallProfile shows rules [values](images/BaselineGPO_Firewall_PS.PNG)                  |
+| Verification        | Get-NetFirewallProfile shows rules [values](/images/BaselineGPO_Firewall_PS.PNG)                  |
 
 ## Verification
 Ensured that the GP has been applied to the workstation. [Screenshot](/images/BaselineGPO_4PNG.PNG) 
