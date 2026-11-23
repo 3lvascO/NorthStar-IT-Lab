@@ -51,7 +51,7 @@ workstation to the domain.
 ## Documentation
 
 - [Initial lab setup](docs/01-initial-setup.md)
-
+- [Workstation Baseline Configuration](/docs/03-worksation baseline.md) 
 ## Planned Scenarios
 
 - Join a Windows workstation to the Active Directory domain
