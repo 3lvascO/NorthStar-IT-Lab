@@ -45,8 +45,6 @@ Build and manage a virtualized Windows environment to develop practical skills i
 
 The lab has been set up. A small organization IT environment consisting of a Windows Server as the Domain Controller, and a Windows client
 has been successfully installed as virtual machines in Oracle VirtualBox.
-Initial configuration is being documented before joining the
-workstation to the domain.
 
 ## Documentation
 
