@@ -26,8 +26,10 @@ The following setting were applied to this Baseline GPO
 | GPO                 | NorthStar - Workstation Baseline                           |
 | Linked OU           | Lab Workstations                                           |
 | Security Setting    | WD Firewall                                                |
-| Value               | inbound/outbount defaults, logging                         |
+| Value               | inbound(blocked)/outbount(allowed) defaults, logging enabled                        |
 | Verification        | Get-NetFirewallProfile shows rules [values](/images/BaselineGPO_Firewall_PS.PNG)                  |
+
+Allowed remote management traffic from domain's ip address to expedite configuration changes effective time (no "gpudate" necessary at individual workstations fo updates to take effect)
 
 ## Verification
 Ensured that the GP has been applied to the workstation. [Screenshot](/images/BaselineGPO_4PNG.PNG) 
